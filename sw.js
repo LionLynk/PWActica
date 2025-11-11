@@ -2,12 +2,12 @@ const cache_name='portafolio-Leo';
 self.addEventListener('install', e => {
 const cacheProm = caches.open(cache_name).then(cache=>{
   return  cache.addAll([
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/img/logo.png',
-    '/js/app.js',
-    '/js/script.js']);
+    './',
+    './index.html',
+    './css/style.css',
+    './img/logo.png',
+    './js/app.js',
+    './js/script.js']);
 });
 e.waitUntil(cacheProm);
 });
