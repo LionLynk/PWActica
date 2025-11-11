@@ -4,9 +4,9 @@ if ( navigator.serviceWorker ) {
 if (window.caches) {
     caches.open('portafolio').then(cache=>{
             cache.addAll([
-                '/index.html',
-                '/css/style.css',
-                '/img/logo.png'
+                './index.html',
+                './css/style.css',
+                './img/logo.png'
 
             ]).then(()=>{
                cache.put('index.html', new Response('funciona'))
