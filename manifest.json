@@ -3,7 +3,7 @@
   "name": "PWACTICA", 
   "icons": [ 
     { 
-      "src": "/img/logo.png", 
+      "src": "./img/logo.png", 
       "sizes": "512x512", 
       "type": "image/png" 
     } 
@@ -13,4 +13,5 @@
   "theme_color": "black", 
   "background_color": "white" 
 } 
+
 
