@@ -1,19 +1,20 @@
 { 
-  "short_name": "LionPortafolio", 
-  "name": "PWACTICA", 
+  "short_name": "PWAP", 
+  "name": "PWAP", 
   "icons": [ 
+
     { 
-      "src": "./img/icono.png", 
+
+      "src": "/img/logo.png", 
       "sizes": "512x512", 
       "type": "image/png" 
     } 
+
   ], 
+
   "start_url": ".", 
   "display": "standalone", 
   "theme_color": "black", 
   "background_color": "white" 
+
 } 
-
-
-
-
