@@ -1,0 +1,20 @@
+{ 
+  "short_name": "PWAP", 
+  "name": "PWAP", 
+  "icons": [ 
+
+    { 
+
+      "src": "/img/logo.png", 
+      "sizes": "512x512", 
+      "type": "image/png" 
+    } 
+
+  ], 
+
+  "start_url": ".", 
+  "display": "standalone", 
+  "theme_color": "black", 
+  "background_color": "white" 
+
+} 
